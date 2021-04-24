@@ -1,4 +1,7 @@
-from flaskblog import app
+"""TODO: Add module docstring"""
+from flaskblog import create_app
+
+app = create_app()
 
 if __name__ == '__main__':
     app.run(debug=True)
